@@ -1,5 +1,6 @@
 {
   "name": "lsb-release",
+  "description": "Parser for `lsb_release` command output",
   "keywords": ["lsb_release", "lsb", "linux", "os"],
   "author": "Maciej Małecki <me@mmalecki.com>",
   "version": "0.0.0",
