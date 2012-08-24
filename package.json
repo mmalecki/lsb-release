@@ -4,5 +4,11 @@
   "keywords": ["lsb_release", "lsb", "linux", "os"],
   "author": "Maciej Małecki <me@mmalecki.com>",
   "version": "0.0.0",
-  "main": "./lib/lsb-release"
+  "main": "./lib/lsb-release",
+  "devDependencies": {
+    "assert-called": "0.0.x"
+  },
+  "scripts": {
+    "test": "node test/lsb-release-test.js"
+  }
 }
