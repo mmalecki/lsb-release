@@ -12,7 +12,7 @@ child_process.exec = function () {
   });
 };
 
-lsbRelease(assertCalled(function (err, data) {
+lsbRelease.fromCommand(assertCalled(function (err, data) {
   assert(!err);
   assert.deepEqual(data, {
     "lsbVersion": ":core-4.0-amd64:core-4.0-noarch",

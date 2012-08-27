@@ -9,6 +9,6 @@
     "assert-called": "0.0.x"
   },
   "scripts": {
-    "test": "node test/lsb-release-test.js"
+    "test": "node test/from-file-test.js && node test/from-command-test.js"
   }
 }
