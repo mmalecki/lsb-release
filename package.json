@@ -3,7 +3,7 @@
   "description": "Parser for `lsb_release` command output",
   "keywords": ["lsb_release", "lsb", "linux", "os"],
   "author": "Maciej Małecki <me@mmalecki.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/lsb-release",
   "devDependencies": {
     "assert-called": "0.0.x"
